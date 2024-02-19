@@ -32,7 +32,7 @@ const transfer_fund = async (to, amount) => {
   }
 
   const to = process.argv[2];
-  const amount = parseInt(process.argv[3]);
+  const amount = parseFloat(process.argv[3]);
 
   await transfer_fund(to, amount);
 })();
