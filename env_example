@@ -1,0 +1,5 @@
+# Required for Mainnet/Goerli Deployment
+RPC_URL=https://free-rpc.nethermind.io/mainnet-juno
+ACCOUNT_ADDRESS=
+ACCOUNT_PK=
+TOKEN_ADDRESS=
