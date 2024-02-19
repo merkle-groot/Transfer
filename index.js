@@ -20,7 +20,9 @@ const transfer_fund = async (to, amount) => {
       })
     }
   );
+  console.log("Tx hash: ", result.transaction_hash);
   await provider.waitForTransaction(result.transaction_hash);
+  console.log("Tx successful!");
 }
 
 (async () => {
